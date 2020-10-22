@@ -33,7 +33,7 @@ const Nav = (props) => {
         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           <MenuIcon />
         </IconButton>
-        <img className={classes.logo} src={Logo} />
+        <img className={classes.logo} src={Logo} alt="logo" />
         <Typography variant="h6" className={classes.title}>
           The Digital Labs
         </Typography>
