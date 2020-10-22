@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import mountainVideo from '../mountain.mp4';
+import mountainVideo from '../media/mountain.mp4';
 
 const useStyles = makeStyles((theme) => ({
   frontPage: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     top: '40%',
     textAlign: 'center',
-    color: '#ffadbb',
+    color: '#ff9de1',
     fontSize: 50
   },
 }));

@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Logo from '../media/logo.jpg';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -18,6 +19,10 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  logo: {
+    height: 30,
+    marginRight: 25
+  }
 }));
 
 const Nav = (props) => {
@@ -28,6 +33,7 @@ const Nav = (props) => {
         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           <MenuIcon />
         </IconButton>
+        <img className={classes.logo} src={Logo} />
         <Typography variant="h6" className={classes.title}>
           The Digital Labs
         </Typography>
