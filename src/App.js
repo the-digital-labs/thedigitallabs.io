@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import 'fontsource-roboto';
 import Nav from './components/Nav.js';
 import FrontPage from './components/FrontPage';

@@ -1,10 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import mountainVideo from '../media/mountain.mp4';
+import '../styles/frontPage.css';
 
 const useStyles = makeStyles((theme) => ({
   frontPage: {
     height: '100vh',
+    backgroundColor: '#000000e3'
   },
   video: {
     height: '100%',
@@ -20,6 +22,16 @@ const useStyles = makeStyles((theme) => ({
     color: '#ff9de1',
     fontSize: 50
   },
+  bigHeader: {
+    fontVariant: 'small-caps',
+    fontWeight: 300
+  },
+  smallHeader: {
+    fontSize: 25
+  },
+  divider: {
+    color: 'grey'
+  }
 }));
 
 const FrontPage = (props) => {
@@ -29,8 +41,9 @@ const FrontPage = (props) => {
       <video className={classes.video} controls={false} autoPlay loop muted>
         <source src={mountainVideo} type="video/mp4" />
       </video>
-      <div className={classes.overlay}>
-        <h1>The Digital Labs</h1>
+      <div className={classes.overlay} id="frontPage-overlay">
+        <h1 className={classes.bigHeader}>The Digital Labs</h1>
+        <h2 className={classes.smallHeader}>SOFTWARE <span className={classes.divider}>|</span> PRODUCTIONS <span className={classes.divider}>|</span> ART</h2>
       </div>
     </div>
   );
