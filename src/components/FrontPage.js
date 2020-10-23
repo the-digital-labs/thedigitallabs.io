@@ -27,7 +27,8 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 300
   },
   smallHeader: {
-    fontSize: 25
+    fontSize: 25,
+    fontWeight: 300
   },
   divider: {
     color: 'grey'
@@ -42,8 +43,8 @@ const FrontPage = (props) => {
         <source src={mountainVideo} type="video/mp4" />
       </video>
       <div className={classes.overlay} id="frontPage-overlay">
-        <h1 className={classes.bigHeader}>The Digital Labs</h1>
-        <h2 className={classes.smallHeader}>SOFTWARE <span className={classes.divider}>|</span> PRODUCTIONS <span className={classes.divider}>|</span> ART</h2>
+        <h1 className={classes.bigHeader} id="frontPage-bigHeader">The Digital Labs</h1>
+        <h2 className={classes.smallHeader} id="frontPage-smallHeader">SOFTWARE <span className={classes.divider}>|</span> PRODUCTIONS <span className={classes.divider}>|</span> ART</h2>
       </div>
     </div>
   );

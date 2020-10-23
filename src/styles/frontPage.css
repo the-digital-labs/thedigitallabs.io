@@ -1,6 +1,11 @@
 @media only screen and (max-width: 600px) {
   #frontPage-overlay {
-    font-size: 22px;
     top: 46%;
+  }
+  #frontPage-bigHeader {
+    font-size: 38px;
+  }
+  #frontPage-smallHeader {
+    font-size: 15px;
   }
 }
