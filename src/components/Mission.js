@@ -3,12 +3,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import pinkImg from '../media/pink.jpg';
+import vancouver from '../media/vancouver1.jpg';
+import '../styles/mission.css';
 
 const useStyles = makeStyles((theme) => ({
   mission: {
     minHeight: '100vh',
     border: '4px pink solid',
-    padding: '0px 0px 200px 0px',
     fontFamily: 'Roboto',
     backgroundColor: '#0c0c0c'
   },
@@ -16,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${pinkImg})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    height: 115,
+    height: 45,
     padding: 50,
     textAlign: 'center',
     opacity: 0.9
@@ -24,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
   missionBannerTitle: {
     color: 'white',
     backgroundColor: '#0c0c0c',
-    padding: 30,
+    padding: 35,
     margin: '0 auto',
     maxWidth: 800
   },
@@ -50,8 +51,18 @@ const useStyles = makeStyles((theme) => ({
   },
   bodyInfo: {
     fontSize: 25,
-    fontWeight: 300
-  }
+    fontWeight: 300,
+    color: 'white'
+  },
+  vancouver: {
+    height: 250,
+    borderRadius: 5
+  },
+  vancouverText: {
+    color: 'white',
+    paddingTop: 20,
+    fontSize: 24
+  },
 }));
 
 const Mission = (props) => {
@@ -60,11 +71,11 @@ const Mission = (props) => {
     <div className={classes.mission} id="mission"> 
       <div className={classes.missionBanner} id="mission-banner">
         <div className={classes.missionBannerTitle}>
-          <Typography variant="h4">Mission Statement</Typography>
+          <Typography variant="h4">MISSION STATEMENT</Typography>
         </div>
       </div>
-      <Grid container className={classes.missionContent}>
-        <Grid item lg={6} md={6} sm={6} xs={6}>
+      <Grid container className={classes.missionContent} id="mission-content">
+        <Grid item xl={6} lg={6} md={12} sm={12} xs={12}>
           <Typography className={classes.bodyHeader}>We are The Digital Labs.</Typography>
           <br/>
           <Typography className={classes.body}>We Value: <span className={classes.bodyInfo}>Quality, respect and honesty.</span></Typography>
@@ -75,8 +86,19 @@ const Mission = (props) => {
           <br/>
           <Typography className={classes.body}>We are not Afraid:<span className={classes.bodyInfo}> To try new things.</span></Typography>
         </Grid>
-        <Grid item lg={6} md={6} sm={6} xs={6}>
-          
+        <Grid item xl={6} lg={6} md={0} sm={0} xs={0}>
+
+        </Grid>
+        <Grid item xl={6} lg={6} md={12} sm={12} xs={12}>
+          <br/>
+          <br/>
+          <hr />
+          <br />
+          <br />
+          <img className={classes.vancouver} src={vancouver} alt="vancouver" />
+          <Typography className={classes.vancouverText} variant="body1">Founded on October 20th, 2020 in Vancouver, BC, Canada.</Typography>
+        </Grid>
+        <Grid item xl={6} lg={6} md={0} sm={0} xs={0}>
 
         </Grid>
       </Grid>
