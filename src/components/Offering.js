@@ -3,8 +3,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import webIcon from '../media/icons8-programming.svg';
 import '../styles/offering.css';
+import webIcon from '../media/icons8-programming.svg';
+import consultIcon from '../media/icons8-increase.svg';
+import productIcon from '../media/icons8-flip-chart.svg';
+import socialIcon from '../media/icons8-connect.svg';
+import cameraIcon from '../media/icons8-slr-camera.svg';
+import artIcon from '../media/icons8-drawing.svg';
+
 
 const useStyles = makeStyles((theme) => ({
   offering: {
@@ -27,7 +33,8 @@ const useStyles = makeStyles((theme) => ({
     border: '3px solid pink'
   },
   icon: {
-    height: 250
+    height: 225,
+    margin: 15
   },
   cardHeader: {
     color: 'white',
@@ -50,7 +57,7 @@ const Offering = (props) => {
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={webIcon} alt="Web App Dev" className={classes.icon} />
-            <Typography className={classes.cardHeader} variant="h4">Web Development</Typography>
+            <Typography className={classes.cardHeader} variant="h4">Web Engineering</Typography>
             <hr />
             <br />
             <div className={classes.cardInfo}>
@@ -60,8 +67,8 @@ const Offering = (props) => {
         </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
-            <img src={webIcon} alt="Web App Dev" className={classes.icon} />
-            <Typography className={classes.cardHeader} variant="h4">Web Development</Typography>
+            <img src={consultIcon} alt="Web App Dev" className={classes.icon} />
+            <Typography className={classes.cardHeader} variant="h4">Technology Consulting</Typography>
             <hr />
             <br />
             <div className={classes.cardInfo}>
@@ -71,8 +78,8 @@ const Offering = (props) => {
         </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
-            <img src={webIcon} alt="Web App Dev" className={classes.icon} />
-            <Typography className={classes.cardHeader} variant="h4">Web Development</Typography>
+            <img src={productIcon} alt="Web App Dev" className={classes.icon} />
+            <Typography className={classes.cardHeader} variant="h4">Product Development</Typography>
             <hr />
             <br />
             <div className={classes.cardInfo}>
@@ -82,8 +89,8 @@ const Offering = (props) => {
         </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
-            <img src={webIcon} alt="Web App Dev" className={classes.icon} />
-            <Typography className={classes.cardHeader} variant="h4">Web Development</Typography>
+            <img src={cameraIcon} alt="Web App Dev" className={classes.icon} />
+            <Typography className={classes.cardHeader} variant="h4">Videography and Photography</Typography>
             <hr />
             <br />
             <div className={classes.cardInfo}>
@@ -93,8 +100,8 @@ const Offering = (props) => {
         </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
-            <img src={webIcon} alt="Web App Dev" className={classes.icon} />
-            <Typography className={classes.cardHeader} variant="h4">Web Development</Typography>
+            <img src={artIcon} alt="Web App Dev" className={classes.icon} />
+            <Typography className={classes.cardHeader} variant="h4">Custom Digital Art</Typography>
             <hr />
             <br />
             <div className={classes.cardInfo}>
@@ -104,8 +111,8 @@ const Offering = (props) => {
         </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
-            <img src={webIcon} alt="Web App Dev" className={classes.icon} />
-            <Typography className={classes.cardHeader} variant="h4">Web Development</Typography>
+            <img src={socialIcon} alt="Web App Dev" className={classes.icon} />
+            <Typography className={classes.cardHeader} variant="h4">Social Media Management</Typography>
             <hr />
             <br />
             <div className={classes.cardInfo}>
