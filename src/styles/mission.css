@@ -8,4 +8,10 @@
     padding: 60px 30px 50px 30px !important;
     border-width: 0px;
   }
+  #mission-banner {
+    padding: 28px !important;
+  }
+  #mission-banner-title h4 {
+    font-size: 20px !important;
+  }
 }

@@ -56,7 +56,9 @@ const useStyles = makeStyles((theme) => ({
   },
   vancouver: {
     height: 250,
-    borderRadius: 5
+    borderRadius: 5,
+    width: '100%',
+    maxWidth: 400
   },
   vancouverText: {
     color: 'white',
@@ -70,7 +72,7 @@ const Mission = (props) => {
   return (
     <div className={classes.mission} id="mission"> 
       <div className={classes.missionBanner} id="mission-banner">
-        <div className={classes.missionBannerTitle}>
+        <div className={classes.missionBannerTitle} id="mission-banner-title">
           <Typography variant="h4">MISSION STATEMENT</Typography>
         </div>
       </div>
@@ -86,7 +88,7 @@ const Mission = (props) => {
           <br/>
           <Typography className={classes.body}>We are not Afraid:<span className={classes.bodyInfo}> To try new things.</span></Typography>
         </Grid>
-        <Grid item xl={6} lg={6} md={0} sm={0} xs={0}>
+        <Grid item xl={6} lg={6} md={false} sm={false} xs={false}>
 
         </Grid>
         <Grid item xl={6} lg={6} md={12} sm={12} xs={12}>
@@ -96,9 +98,9 @@ const Mission = (props) => {
           <br />
           <br />
           <img className={classes.vancouver} src={vancouver} alt="vancouver" />
-          <Typography className={classes.vancouverText} variant="body1">Founded on October 20th, 2020 in Vancouver, BC, Canada.</Typography>
+          <Typography className={classes.vancouverText}>Founded on October 20th, 2020 in Vancouver, BC, Canada.</Typography>
         </Grid>
-        <Grid item xl={6} lg={6} md={0} sm={0} xs={0}>
+        <Grid item xl={6} lg={6} md={false} sm={false} xs={false}>
 
         </Grid>
       </Grid>

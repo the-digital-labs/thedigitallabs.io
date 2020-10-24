@@ -11,7 +11,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 const useStyles = makeStyles((theme) => ({
   footer: {
     minHeight: 300,
-    backgroundColor: '#0e0d0e',
+    backgroundColor: '#160b19',
     color: 'white',
     fontFamily: 'Roboto',
     padding: 50
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   },
   email: {
     fontSize: 18,
-    color: '#bd98ba !important',
+    color: '#d69bd1 !important',
   },
   socialIcon: {
     paddingRight: 15

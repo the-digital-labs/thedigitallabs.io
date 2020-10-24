@@ -15,7 +15,7 @@
     padding: 20px !important;
     margin: 5px !important;
     margin-bottom: 20px !important;
-    height: 525px !important;
+    min-height: 525px !important;
     border-width: 1px !important;
   }
   .offering-card img {
