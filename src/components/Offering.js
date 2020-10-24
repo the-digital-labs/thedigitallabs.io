@@ -11,11 +11,10 @@ import socialIcon from '../media/icons8-connect.svg';
 import cameraIcon from '../media/icons8-slr-camera.svg';
 import artIcon from '../media/icons8-drawing.svg';
 
-
 const useStyles = makeStyles((theme) => ({
   offering: {
     minHeight: '100vh',
-    border: '8px pink solid',
+    border: '4px pink solid',
     padding: 200,
     fontFamily: 'Roboto',
     backgroundColor: '#0c0c0c'
@@ -27,14 +26,13 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     fontVariant: 'all-small-caps',
     padding: 30
-
   },
   paper: {
     minHeight: 475,
     margin: 25,
     textAlign: 'center',
     backgroundColor: '#040404',
-    padding: 50,
+    padding: '50px 50px 50px 50px',
     border: '3px solid pink'
   },
   icon: {
@@ -62,7 +60,7 @@ const Offering = (props) => {
         <Grid item lg={12} md={12} sm={12} xs={12}>
           <Typography className={classes.header} variant="h2">Our Services</Typography>
         </Grid>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={webIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Web Engineering</Typography>
@@ -73,7 +71,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={consultIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Technology Consulting</Typography>
@@ -84,7 +82,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={productIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Product Development</Typography>
@@ -95,7 +93,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={cameraIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Videography and Photography</Typography>
@@ -106,7 +104,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={artIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Custom Digital Art</Typography>
@@ -117,7 +115,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={socialIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Social Media Management</Typography>

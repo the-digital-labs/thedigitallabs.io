@@ -3,6 +3,7 @@ import './styles/App.css';
 import 'fontsource-roboto';
 import Nav from './components/Nav.js';
 import FrontPage from './components/FrontPage';
+import Mission from './components/Mission';
 import Offering from './components/Offering';
 import Team from './components/Team';
 import Clients from './components/Clients';
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <div>
         <FrontPage />
+        <Mission />
         <Offering />
         <Team />
         <Clients />

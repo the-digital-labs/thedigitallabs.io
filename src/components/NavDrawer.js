@@ -9,6 +9,7 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import GroupIcon from '@material-ui/icons/Group';
 import StarsIcon from '@material-ui/icons/Stars';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
+import SportsMmaIcon from '@material-ui/icons/SportsMma';
 
 const useStyles = makeStyles((theme) => ({
   drawer: {
@@ -26,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const listItems = [
+  {
+    text: 'Our Mission',
+    icon: <SportsMmaIcon />
+  },
   {
     text: 'Services',
     icon: <StorefrontIcon />
