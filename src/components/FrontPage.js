@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import mountainVideo from '../media/mountain.mp4';
+import mountainVideo from '../media/Space.mp4';
 import '../styles/frontPage.css';
 
 const useStyles = makeStyles((theme) => ({
