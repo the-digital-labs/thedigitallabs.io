@@ -21,11 +21,16 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#0c0c0c'
   },
   header: {
-    fontSize: 60,
+    fontSize: 50,
     color: 'white',
+    textAlign: 'left',
+    fontWeight: 600,
+    fontVariant: 'all-small-caps',
+    padding: 30
+
   },
   paper: {
-    height: 475,
+    minHeight: 475,
     margin: 25,
     textAlign: 'center',
     backgroundColor: '#040404',
@@ -52,8 +57,11 @@ const useStyles = makeStyles((theme) => ({
 const Offering = (props) => {
   const classes = useStyles();
   return (
-    <div className={classes.offering} id="offering">
+    <div className={classes.offering} id="offering"> 
       <Grid container>
+        <Grid item lg={12} md={12} sm={12} xs={12}>
+          <Typography className={classes.header} variant="h2">Our Services</Typography>
+        </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={webIcon} alt="Web App Dev" className={classes.icon} />
