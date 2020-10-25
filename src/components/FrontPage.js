@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import mountainVideo from '../media/Space.mp4';
+import video from '../media/Space.mp4';
 import '../styles/frontPage.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -40,7 +40,7 @@ const FrontPage = (props) => {
   return (
     <div className={classes.frontPage}>
       <video className={classes.video} controls={false} autoPlay loop muted>
-        <source src={mountainVideo} type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </video>
       <div className={classes.overlay} id="frontPage-overlay">
         <h1 className={classes.bigHeader} id="frontPage-bigHeader">The Digital Labs</h1>

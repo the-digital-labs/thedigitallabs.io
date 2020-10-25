@@ -6,6 +6,7 @@ import FrontPage from './components/FrontPage';
 import Mission from './components/Mission';
 import Offering from './components/Offering';
 import Footer from './components/Footer';
+import Team from './components/Team.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div>
         <FrontPage />
         <Offering />
+        <Team />
         <Mission />
         <Footer />
       </div>

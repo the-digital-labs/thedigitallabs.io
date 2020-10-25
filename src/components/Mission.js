@@ -80,13 +80,13 @@ const Mission = (props) => {
         <Grid item xl={6} lg={6} md={12} sm={12} xs={12}>
           <Typography className={classes.bodyHeader}>We are The Digital Labs.</Typography>
           <br/>
-          <Typography className={classes.body}>We Value: <span className={classes.bodyInfo}>Quality, respect and honesty.</span></Typography>
+          <Typography className={classes.body}>We Value<span className={classes.bodyInfo}>, Quality, Respect and Honesty.</span></Typography>
           <br/>
-          <Typography className={classes.body}>We Donate: <span className={classes.bodyInfo}>1% of our profits to non-profit organizations.</span></Typography>
+          <Typography className={classes.body}>We Donate<span className={classes.bodyInfo}>, 1% of our profits to non-profit organizations.</span></Typography>
           <br/>
-          <Typography className={classes.body}>We are International:<span className={classes.bodyInfo}> Remotely.</span></Typography>
+          <Typography className={classes.body}>We are International<span className={classes.bodyInfo}>, Remotely.</span></Typography>
           <br/>
-          <Typography className={classes.body}>We are not Afraid:<span className={classes.bodyInfo}> To try new things.</span></Typography>
+          <Typography className={classes.body}>We are not Afraid<span className={classes.bodyInfo}>, to try new things.</span></Typography>
         </Grid>
         <Grid item xl={6} lg={6} md={false} sm={false} xs={false}>
 
