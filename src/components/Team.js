@@ -62,14 +62,17 @@ const useStyles = makeStyles((theme) => ({
 
   },
   profileIcons: {
-    color: '#f0b2f1',
     float: 'right',
-    margin: 10,
+    margin: 20,
     display: 'inline-grid'
   },
   profileIcon: {
-    margin: '5px 10px 5px 10px',
-    fontSize: 25
+    padding: '8px 10px 8px 10px',
+    fontSize: 25,
+    color: '#f0b2f1',
+    '&:hover': {
+      color: 'white',
+    }
   }
 }));
 
@@ -92,15 +95,27 @@ const Team = (props) => {
               <Typography className={classes.profileName}>Chris Eddy (Rookie Bleu)</Typography>
               <Typography className={classes.profileTitle}>CEO | Web Engineer | Creator</Typography>
               <div className={classes.profileIcons}>
-                <LinkedInIcon className={classes.profileIcon}/>
-                <InstagramIcon className={classes.profileIcon}/>
-                <TwitterIcon className={classes.profileIcon}/>
-                <GitHubIcon className={classes.profileIcon}/>
+                <a className={classes.profileIcon} href="https://www.linkedin.com/in/chris-eddy-394784160/" target="__blank">
+                  <LinkedInIcon />
+                </a>
+                <a className={classes.profileIcon} href="https://www.instagram.com/rookie.bleu/" target="__blank">
+                  <InstagramIcon />
+                </a>
+                <a className={classes.profileIcon} href="https://twitter.com/RookieBleu" target="__blank">
+                  <TwitterIcon />
+                </a>
+                <a className={classes.profileIcon} href="https://github.com/ChrisEddy" target="__blank">
+                  <GitHubIcon />
+                </a>
               </div>
               <hr className={classes.profileDivider}/>
-              <Typography className={classes.profileDescription}>
-                Hercules (/ˈhɜːrkjuliːz, -jə-/) is a Roman hero and god. He is the Roman equivalent of the Greek divine hero Heracles, who is the son of Zeus (Roman equivalent Jupiter) and the mortal Alcmene. In classical mythology, Hercules is famous for his strength and for his numerous far-ranging adventures.
-The Romans adapted the Greek hero's iconography and myths for their literature and art under the name Hercules.
+              <Typography className={classes.profileDescription}>              
+                Chris is a "Senior / Lead / Rockstar / 10x" Software Engineer with 5 years of professional development experience. 
+                A fullstack JavaScript developer. React, Node.js, HTML, CSS, databases and AWS are some of his key skills.
+                Chris has a proven track record of delivering exceptional software at startup and enterprise levels.
+                He is dedicated to the art and craft of software engineering. Seeking the highest forms of quality and user experience.
+                Never afraid to work hard and push the boundaries of what is possible. 
+                A natural leader, determined and ambitious, Chris started off his journey in programming at age 19 and at age 25 started "The Digital Labs".
               </Typography>
             </Grid>
           </Grid>
@@ -115,10 +130,12 @@ The Romans adapted the Greek hero's iconography and myths for their literature a
               <Typography className={classes.profileName}>Sylvia Makuch (Checkmeeeowt)</Typography>
               <Typography className={classes.profileTitle} style={{color: '#ffc0e3'}}>Digital Artist | Stylist | Creative</Typography>
               <div className={classes.profileIcons}>
-                <LinkedInIcon className={classes.profileIcon}/>
-                <InstagramIcon className={classes.profileIcon}/>
-                <TwitterIcon className={classes.profileIcon}/>
-                <GitHubIcon className={classes.profileIcon}/>
+                <a className={classes.profileIcon} href="https://www.linkedin.com/in/sylvia-makuch-6baa4a66/" target="__blank">
+                  <LinkedInIcon />
+                </a>
+                <a className={classes.profileIcon} href="https://www.instagram.com/check.meeeowtt/" target="__blank">
+                  <InstagramIcon />
+                </a>
               </div>
               <hr className={classes.profileDivider}/>
               <Typography className={classes.profileDescription}>
@@ -137,10 +154,9 @@ The Romans adapted the Greek hero's iconography and myths for their literature a
               <Typography className={classes.profileName}>Taj Isiah</Typography>
               <Typography className={classes.profileTitle} style={{color: 'rgb(255 248 170)'}}>Videographer | Photographer | Productions</Typography>
               <div className={classes.profileIcons}>
-                <LinkedInIcon className={classes.profileIcon}/>
-                <InstagramIcon className={classes.profileIcon}/>
-                <TwitterIcon className={classes.profileIcon}/>
-                <GitHubIcon className={classes.profileIcon}/>
+                <a className={classes.profileIcon} href="https://www.instagram.com/tajisiah/" target="__blank">
+                  <InstagramIcon />
+                </a>
               </div>
               <hr className={classes.profileDivider}/>
               <Typography className={classes.profileDescription}>
