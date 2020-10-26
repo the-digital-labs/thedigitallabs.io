@@ -60,7 +60,7 @@ const Offering = (props) => {
         <Grid item lg={12} md={12} sm={12} xs={12}>
           <Typography className={classes.header} variant="h2">Our Services</Typography>
         </Grid>
-        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={webIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Web Engineering</Typography>
@@ -71,7 +71,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={consultIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Technology Consulting</Typography>
@@ -82,7 +82,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={productIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Product Development</Typography>
@@ -93,7 +93,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={cameraIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Videography and Photography</Typography>
@@ -104,7 +104,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={artIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Custom Digital Art</Typography>
@@ -115,7 +115,7 @@ const Offering = (props) => {
             </div>
           </Paper>
         </Grid>
-        <Grid item xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
             <img src={socialIcon} alt="Web App Dev" className={classes.icon} />
             <Typography className={classes.cardHeader} variant="h4">Social Media Management</Typography>

@@ -3,9 +3,14 @@
     padding: 100px 200px 400px 200px !important;
   }
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1200px) {
+  
+}
+
+@media only screen and (max-width: 992px) {
   #team-content {
-    padding: 60px 30px 50px 30px !important;
+    padding: 10px 30px 50px 30px !important;
     border-width: 0px;
   }
   #team-banner {
@@ -14,4 +19,22 @@
   #team-banner-title h4 {
     font-size: 20px !important;
   }
+  .team-profile-name {
+    font-size: 24px !important;
+  }
+  .team-profile-title {
+    font-size: 18px !important;
+  }
+  .team-profile-image {
+    width: 100% !important;
+  }
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+

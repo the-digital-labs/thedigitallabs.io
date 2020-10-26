@@ -27,15 +27,16 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'left',
     fontWeight: 600,
     fontVariant: 'all-small-caps',
-    padding: '30px 30px 30px 0px'
+    padding: '30px 30px 50px 0px'
   },
   profileCard: {
-    marginTop: 100
+    marginBottom: 100
   },
   profileImg: {
     width: '85%',
     borderRadius: 5,
-    boxShadow: '5px 0px 80px rgb(84 59 84 / 37%), 0 0px 10px rgb(84 59 84 / 37%)'
+    boxShadow: '5px 0px 80px rgb(84 59 84 / 37%), 0 0px 10px rgb(84 59 84 / 37%)',
+    marginBottom: 20
   },
   profileName: {
     fontSize: 40,
@@ -88,12 +89,12 @@ const Team = (props) => {
 
         <Grid className={classes.profileCard} item xl={12} lg={12} md={12} sm={12} xs={12}>
           <Grid container>
-            <Grid item xl={3} lg={4} md={12} sm={12} xs={12}>
-              <img className={classes.profileImg} src={chris} alt="chris-eddy"/>
+            <Grid item xl={3} lg={4} md={12} sm={12} xs={12} style={{ paddingBottom: 20 }}>
+              <img className={classes.profileImg + ' team-profile-image'} src={chris} alt="chris-eddy"/>
             </Grid>
             <Grid item xl={9} lg={8} md={12} sm={12} xs={12}>
-              <Typography className={classes.profileName}>Chris Eddy (Rookie Bleu)</Typography>
-              <Typography className={classes.profileTitle}>CEO | Web Engineer | Creator</Typography>
+              <Typography className={classes.profileName + ' team-profile-name'}>Chris Eddy (Rookie Bleu)</Typography>
+              <Typography className={classes.profileTitle + ' team-profile-title'}>CEO | Web Engineer | Creator</Typography>
               <div className={classes.profileIcons}>
                 <a className={classes.profileIcon} href="https://www.linkedin.com/in/chris-eddy-394784160/" target="__blank">
                   <LinkedInIcon />
@@ -115,7 +116,7 @@ const Team = (props) => {
                 Chris has a proven track record of delivering exceptional software at startup and enterprise levels.
                 He is dedicated to the art and craft of software engineering. Seeking the highest forms of quality and user experience.
                 Never afraid to work hard and push the boundaries of what is possible. 
-                A natural leader, determined and ambitious, Chris started off his journey in programming at age 19 and at age 25 started "The Digital Labs".
+                A natural leader, determined and ambitious, Chris started off his journey in programming at age 19 and at age 25 founded: "The Digital Labs".
               </Typography>
             </Grid>
           </Grid>
@@ -124,11 +125,11 @@ const Team = (props) => {
         <Grid className={classes.profileCard} item xl={12} lg={12} md={12} sm={12} xs={12}>
           <Grid container>
             <Grid item xl={3} lg={4} md={12} sm={12} xs={12}>
-              <img className={classes.profileImg} src={sylvia} alt="sylvia"/>
+              <img className={classes.profileImg + ' team-profile-image'} src={sylvia} alt="sylvia"/>
             </Grid>
             <Grid item xl={9} lg={8} md={12} sm={12} xs={12}>
-              <Typography className={classes.profileName}>Sylvia Makuch (Checkmeeeowt)</Typography>
-              <Typography className={classes.profileTitle} style={{color: '#ffc0e3'}}>Digital Artist | Stylist | Creative</Typography>
+              <Typography className={classes.profileName + ' team-profile-name'}>Sylvia Makuch (Checkmeeeowt)</Typography>
+              <Typography className={classes.profileTitle + ' team-profile-title'} style={{color: '#ffc0e3'}}>Digital Artist | Stylist | Creative</Typography>
               <div className={classes.profileIcons}>
                 <a className={classes.profileIcon} href="https://www.linkedin.com/in/sylvia-makuch-6baa4a66/" target="__blank">
                   <LinkedInIcon />
@@ -148,11 +149,11 @@ const Team = (props) => {
         <Grid className={classes.profileCard} item xl={12} lg={12} md={12} sm={12} xs={12}>
           <Grid container>
             <Grid item xl={3} lg={4} md={12} sm={12} xs={12}>
-              <img className={classes.profileImg} src={taj} alt="taj"/>
+              <img className={classes.profileImg + ' team-profile-image'} src={taj} alt="taj"/>
             </Grid>
             <Grid item xl={9} lg={8} md={12} sm={12} xs={12}>
-              <Typography className={classes.profileName}>Taj Isiah</Typography>
-              <Typography className={classes.profileTitle} style={{color: 'rgb(255 248 170)'}}>Videographer | Photographer | Productions</Typography>
+              <Typography className={classes.profileName + ' team-profile-name'}>Taj Isiah</Typography>
+              <Typography className={classes.profileTitle + ' team-profile-title'} style={{color: 'rgb(255 248 170)'}}>Videographer | Photographer | Productions</Typography>
               <div className={classes.profileIcons}>
                 <a className={classes.profileIcon} href="https://www.instagram.com/tajisiah/" target="__blank">
                   <InstagramIcon />
