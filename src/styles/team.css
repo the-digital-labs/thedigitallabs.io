@@ -1,0 +1,17 @@
+@media only screen and (max-width: 2000px) {
+  #team-content {
+    padding: 100px 200px 400px 200px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #team-content {
+    padding: 60px 30px 50px 30px !important;
+    border-width: 0px;
+  }
+  #team-banner {
+    padding: 28px !important;
+  }
+  #team-banner-title h4 {
+    font-size: 20px !important;
+  }
+}

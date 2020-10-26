@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#0c0c0c'
   },
   header: {
-    fontSize: 50,
+    fontSize: 70,
     color: 'white',
     textAlign: 'left',
     fontWeight: 600,
