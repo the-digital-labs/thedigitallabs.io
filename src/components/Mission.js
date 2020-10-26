@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import pinkImg from '../media/pink.jpg';
 import vancouver from '../media/vancouver1.jpg';
 import '../styles/mission.css';
+import signature from '../media/signature.png';
 
 const useStyles = makeStyles((theme) => ({
   mission: {
@@ -65,6 +66,10 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: 20,
     fontSize: 24
   },
+  signature: {
+    width: '70%',
+    margin: 50
+  }
 }));
 
 const Mission = (props) => {
@@ -100,8 +105,8 @@ const Mission = (props) => {
           <img className={classes.vancouver} src={vancouver} alt="vancouver" />
           <Typography className={classes.vancouverText}>Founded on October 20th, 2020 in Vancouver, BC, Canada.</Typography>
         </Grid>
-        <Grid item xl={6} lg={6} md={false} sm={false} xs={false}>
-
+        <Grid item xl={6} lg={6} md={false} sm={false} xs={false} style={{ textAlign: 'center'}}>
+          <img src={signature} alt="signature" className={classes.signature} />
         </Grid>
       </Grid>
     </div>
