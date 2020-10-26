@@ -83,15 +83,15 @@ const Mission = (props) => {
       </div>
       <Grid container className={classes.missionContent} id="mission-content">
         <Grid item xl={6} lg={6} md={12} sm={12} xs={12}>
-          <Typography className={classes.bodyHeader}>We are The Digital Labs.</Typography>
+          <Typography className={classes.bodyHeader + ' mission-body-header'}>We are The Digital Labs.</Typography>
           <br/>
-          <Typography className={classes.body}>We Value<span className={classes.bodyInfo}>, Quality, Respect and Honesty.</span></Typography>
+          <Typography className={classes.body + ' mission-body'}>We Value<span className={classes.bodyInfo + ' mission-body-info'}>, Quality, Respect and Honesty.</span></Typography>
           <br/>
-          <Typography className={classes.body}>We Donate<span className={classes.bodyInfo}>, 1% of our profits to non-profit organizations.</span></Typography>
+          <Typography className={classes.body + ' mission-body'}>We Donate<span className={classes.bodyInfo + ' mission-body-info'}>, 1% of our profits to non-profit organizations.</span></Typography>
           <br/>
-          <Typography className={classes.body}>We are International<span className={classes.bodyInfo}>, Remotely.</span></Typography>
+          <Typography className={classes.body + ' mission-body'}>We are International<span className={classes.bodyInfo + ' mission-body-info'}>, Remotely.</span></Typography>
           <br/>
-          <Typography className={classes.body}>We are not Afraid<span className={classes.bodyInfo}>, to try new things.</span></Typography>
+          <Typography className={classes.body + ' mission-body'}>We are not Afraid<span className={classes.bodyInfo + ' mission-body-info'}>, to try new things.</span></Typography>
         </Grid>
         <Grid item xl={6} lg={6} md={false} sm={false} xs={false}>
 
@@ -103,10 +103,10 @@ const Mission = (props) => {
           <br />
           <br />
           <img className={classes.vancouver} src={vancouver} alt="vancouver" />
-          <Typography className={classes.vancouverText}>Founded on October 20th, 2020 in Vancouver, BC, Canada.</Typography>
+          <Typography className={classes.vancouverText + ' mission-vancouver-text'}>Founded on October 20th, 2020 in Vancouver, BC, Canada.</Typography>
         </Grid>
         <Grid item xl={6} lg={6} md={false} sm={false} xs={false} style={{ textAlign: 'center'}}>
-          <img src={signature} alt="signature" className={classes.signature} />
+          <img src={signature} alt="signature" className={classes.signature + ' mission-signature'} />
         </Grid>
       </Grid>
     </div>

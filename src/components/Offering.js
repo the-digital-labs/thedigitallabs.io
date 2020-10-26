@@ -58,7 +58,7 @@ const Offering = (props) => {
     <div className={classes.offering} id="offering"> 
       <Grid container>
         <Grid item lg={12} md={12} sm={12} xs={12}>
-          <Typography className={classes.header} variant="h2">Our Services</Typography>
+          <Typography className={classes.header + ' services-header'} variant="h2">Our Services</Typography>
         </Grid>
         <Grid item xl={4} lg={6} md={12} sm={12} xs={12}>
           <Paper className={classes.paper + ' offering-card'} variant="outlined">
@@ -67,7 +67,7 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
             </div>
           </Paper>
         </Grid>
@@ -78,7 +78,7 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
             </div>
           </Paper>
         </Grid>
@@ -89,7 +89,7 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
             </div>
           </Paper>
         </Grid>
@@ -100,7 +100,7 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
             </div>
           </Paper>
         </Grid>
@@ -111,7 +111,7 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
             </div>
           </Paper>
         </Grid>
@@ -122,7 +122,7 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
             </div>
           </Paper>
         </Grid>

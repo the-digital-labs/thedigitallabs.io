@@ -6,6 +6,25 @@
     padding: 10px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .services-header {
+    font-size: 50px !important;
+    padding: 20px !important;
+  }
+  .services-card-text { 
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
 @media only screen and (max-width: 600px) {
   #offering {
     padding: 20px !important;

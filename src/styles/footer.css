@@ -1,0 +1,22 @@
+@media only screen and (max-width: 2000px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    padding: 75px 25px 50px 25px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+

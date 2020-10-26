@@ -84,10 +84,10 @@ const Team = (props) => {
       <Grid container className={classes.teamContent} id="team-content">
 
         <Grid item lg={12} md={12} sm={12} xs={12}>
-          <Typography className={classes.header}>Our Team</Typography>
+          <Typography className={classes.header + ' team-header'}>Our Team</Typography>
         </Grid>
 
-        <Grid className={classes.profileCard} item xl={12} lg={12} md={12} sm={12} xs={12}>
+        <Grid className={classes.profileCard + ' team-profile'} item xl={12} lg={12} md={12} sm={12} xs={12}>
           <Grid container>
             <Grid item xl={3} lg={4} md={12} sm={12} xs={12} style={{ paddingBottom: 20 }}>
               <img className={classes.profileImg + ' team-profile-image'} src={chris} alt="chris-eddy"/>
@@ -110,7 +110,7 @@ const Team = (props) => {
                 </a>
               </div>
               <hr className={classes.profileDivider}/>
-              <Typography className={classes.profileDescription}>              
+              <Typography className={classes.profileDescription + ' team-profile-description'}>              
                 Chris is a "Senior / Lead / Rockstar / 10x" Software Engineer with 5 years of professional development experience. 
                 A fullstack JavaScript developer. React, Node.js, HTML, CSS, databases and AWS are some of his key skills.
                 Chris has a proven track record of delivering exceptional software at startup and enterprise levels.
@@ -122,7 +122,7 @@ const Team = (props) => {
           </Grid>
         </Grid>
 
-        <Grid className={classes.profileCard} item xl={12} lg={12} md={12} sm={12} xs={12}>
+        <Grid className={classes.profileCard + ' team-profile'} item xl={12} lg={12} md={12} sm={12} xs={12}>
           <Grid container>
             <Grid item xl={3} lg={4} md={12} sm={12} xs={12}>
               <img className={classes.profileImg + ' team-profile-image'} src={sylvia} alt="sylvia"/>
@@ -139,14 +139,14 @@ const Team = (props) => {
                 </a>
               </div>
               <hr className={classes.profileDivider}/>
-              <Typography className={classes.profileDescription}>
+              <Typography className={classes.profileDescription + ' team-profile-description'}>
                 Helios, also Helius (/ˈhiːlioʊs/; Ancient Greek: Ἥλιος Hēlios; Latinized as Helius; Ἠέλιος in Homeric Greek), in ancient Greek religion and myth, is the god and personification of the Sun, often depicted in art with a radiant crown and driving a horse-drawn chariot through the sky. He was a guardian of oaths and also the god of sight.
               </Typography>
             </Grid>
           </Grid>
         </Grid>
 
-        <Grid className={classes.profileCard} item xl={12} lg={12} md={12} sm={12} xs={12}>
+        <Grid className={classes.profileCard + ' team-profile'} item xl={12} lg={12} md={12} sm={12} xs={12}>
           <Grid container>
             <Grid item xl={3} lg={4} md={12} sm={12} xs={12}>
               <img className={classes.profileImg + ' team-profile-image'} src={taj} alt="taj"/>
@@ -160,7 +160,7 @@ const Team = (props) => {
                 </a>
               </div>
               <hr className={classes.profileDivider}/>
-              <Typography className={classes.profileDescription}>
+              <Typography className={classes.profileDescription + ' team-profile-description'}>
                 In Greek mythology, Kratos (or Cratos)[a] is the divine personification of strength. 
                 He is the son of Pallas and Styx. Kratos and his siblings Nike ("Victory"), Bia ("Force"), and Zelus ("Zeal") are all essentially personifications of a trait.[5] Kratos is first mentioned alongside his siblings in Hesiod's Theogony. 
                 According to Hesiod.

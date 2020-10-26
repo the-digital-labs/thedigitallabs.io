@@ -3,6 +3,35 @@
     padding: 100px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .mission-body-header {
+  font-size: 30px !important;
+  }
+  .mission-body {
+    font-size: 25px !important;
+  }
+  .mission-body-info {
+    font-size: 20px !important;
+  }
+  .mission-vancouver-text {
+    font-size: 20px !important;
+  }
+  .mission-signature {
+    margin: 0 !important;
+    margin-top: 40px !important;
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
 @media only screen and (max-width: 600px) {
   #mission-content {
     padding: 60px 30px 50px 30px !important;
@@ -15,3 +44,4 @@
     font-size: 20px !important;
   }
 }
+

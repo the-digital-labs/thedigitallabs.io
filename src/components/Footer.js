@@ -7,6 +7,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import '../styles/footer.css';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
@@ -47,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
 const Footer = (props) => {
   const classes = useStyles();
   return (
-    <div className={classes.footer}>
+    <div className={classes.footer + ' footer'}>
       <Grid container>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
           <img src={logo} className={classes.logo} alt="footer-logo" />
