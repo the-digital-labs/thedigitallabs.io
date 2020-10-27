@@ -34,6 +34,37 @@ const useStyles = makeStyles((theme) => ({
 const Nav = (props) => {
   const classes = useStyles();
   const [drawerVisible, setDrawerVisible] = useState(false);
+
+  const scrollToSection = (item) => {
+    let elem = null;
+    switch(item) {
+      case 'Our Mission': {
+        elem = document.getElementById('mission');
+        break;
+      }
+      case 'Services': {
+        elem = document.getElementById('offering');
+        break;
+      }
+      case 'Team': {
+        elem = document.getElementById('team');
+        break;
+      }
+      case 'Contact': {
+        elem = document.getElementById('footer');
+        break;
+      }
+      default: {
+        break;
+      }
+    }
+    window.scrollTo({
+      top:  window.pageYOffset + elem.getBoundingClientRect().top - 70,
+      behavior: 'smooth'
+    });
+    setDrawerVisible(false);
+  }
+
   return (
     <div>
       <AppBar position="static" className={classes.appBar}>
@@ -45,10 +76,10 @@ const Nav = (props) => {
           <Typography variant="h6" className={classes.title}>
             The Digital Labs
           </Typography>
-          <Button className={classes.contactBtn} variant="outlined" color="inherit">Contact</Button>
+          <Button className={classes.contactBtn} variant="outlined" color="inherit" onClick={() => scrollToSection('Contact')}>Contact</Button>
         </Toolbar>
       </AppBar>
-      <NavDrawer visible={drawerVisible} closeDrawer={(e) => setDrawerVisible(false)} />
+      <NavDrawer visible={drawerVisible} closeDrawer={() => setDrawerVisible(false)} scrollToSection={scrollToSection} />
     </div>
   );
 }

@@ -7,7 +7,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import GroupIcon from '@material-ui/icons/Group';
-import StarsIcon from '@material-ui/icons/Stars';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 import SportsMmaIcon from '@material-ui/icons/SportsMma';
 
@@ -33,10 +32,6 @@ const useStyles = makeStyles((theme) => ({
 
 const listItems = [
   {
-    text: 'Our Mission',
-    icon: <SportsMmaIcon />
-  },
-  {
     text: 'Services',
     icon: <StorefrontIcon />
   },
@@ -45,8 +40,8 @@ const listItems = [
     icon: <GroupIcon />
   },
   {
-    text: 'Clients',
-    icon: <StarsIcon />
+    text: 'Our Mission',
+    icon: <SportsMmaIcon />
   },
   {
     text: 'Contact',
@@ -56,11 +51,12 @@ const listItems = [
 
 const NavDrawer = (props) => {
   const classes = useStyles();
+
   return (
       <Drawer className={classes.drawer} anchor='left' open={props.visible} onClose={(e) => props.closeDrawer()}>
         <List className={classes.list}>
           {listItems.map((item, index) => (
-            <ListItem className={classes.navItem} button key={item.text}>
+            <ListItem className={classes.navItem} button key={item.text} onClick={() => props.scrollToSection(item.text)}>
               <ListItemIcon>{item.icon}</ListItemIcon>
               <ListItemText primary={item.text} />
             </ListItem>
