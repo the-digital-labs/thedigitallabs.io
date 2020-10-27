@@ -28,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
   },
   smallHeader: {
     fontSize: 25,
-    fontWeight: 300
+    fontWeight: 300,
+    color: 'white'
   },
   divider: {
     color: 'grey'

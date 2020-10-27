@@ -71,7 +71,7 @@ const Offering = (props) => {
                 We offer a fully in-house fullstack Javascript development studio. 
                 We can do Web Apps (React / Vanilla JS), Mobile Apps (React Native) and Desktop Apps (Electron).
                 We offer our services with maintenance of existing apps as well as new projects. Enterprise, startups and everything in between are welcome.
-                We do backend development in Node.js and AWS / Azure infrastructures. We also plan on getting into Cryptocurrency development services soon.
+                We do backend development in Node.js and AWS / Azure infrastructures. We also plan on getting into cryptocurrency development services soon.
               </Typography>
             </div>
           </Paper>
