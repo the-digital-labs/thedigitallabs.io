@@ -140,7 +140,12 @@ const Team = (props) => {
               </div>
               <hr className={classes.profileDivider}/>
               <Typography className={classes.profileDescription + ' team-profile-description'}>
-                Helios, also Helius (/ˈhiːlioʊs/; Ancient Greek: Ἥλιος Hēlios; Latinized as Helius; Ἠέλιος in Homeric Greek), in ancient Greek religion and myth, is the god and personification of the Sun, often depicted in art with a radiant crown and driving a horse-drawn chariot through the sky. He was a guardian of oaths and also the god of sight.
+                Sylvia has been a talented artist from birth. She has a natural eye for style, aesthetics and a passion for creating unique and professional art.
+                She knew from a young age that fashion, art and design were her real passions and talents.
+                Her favorites ways of creating are: Procreate on iPad Pro w/ Apple Pen, Adobe Programs, real canvas watercolors, paint and easel and is starting to learn Blender.
+                She does excellent interactive digital art with clients and can take your vision and make it reality on the canvas.
+                She has a warm and caring approach to working with people and is a business woman to watch out for. 
+                Currently, Sylvia works casual / part-time for The Digital Labs while attending 3D digital design / art school.
               </Typography>
             </Grid>
           </Grid>
@@ -161,9 +166,9 @@ const Team = (props) => {
               </div>
               <hr className={classes.profileDivider}/>
               <Typography className={classes.profileDescription + ' team-profile-description'}>
-                In Greek mythology, Kratos (or Cratos)[a] is the divine personification of strength. 
-                He is the son of Pallas and Styx. Kratos and his siblings Nike ("Victory"), Bia ("Force"), and Zelus ("Zeal") are all essentially personifications of a trait.[5] Kratos is first mentioned alongside his siblings in Hesiod's Theogony. 
-                According to Hesiod.
+                Taj is a keen, steady and creative production specialist. He is skilled with gimbles, lighting, DSL cameras, editing photos and video, creating music videos, short films, Instagram shots, modeling and content creation.
+                He brings a welcome hand to the creation and marketing process of any company. Taj is working on getting his pro level drone pilot license so that we can legally shoot in urban areas / weddings / crowded events. 
+                Currently, Taj works part-time for The Digital Labs while he attends some film classes and is teaching himself advanced Adobe skills.
               </Typography>
             </Grid>
           </Grid>
