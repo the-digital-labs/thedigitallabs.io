@@ -33,7 +33,8 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     backgroundColor: '#040404',
     padding: '50px 50px 50px 50px',
-    border: '3px solid pink'
+    border: '3px solid pink',
+    boxShadow: '0px 0px 15px rgb(84 59 84 / 37%), 0 0px 22px rgb(84 59 84 / 37%)',
   },
   icon: {
     height: 225,
