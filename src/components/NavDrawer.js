@@ -23,6 +23,11 @@ const useStyles = makeStyles((theme) => ({
   },
   list: {
     width: 250
+  },
+  navItem: {
+    '&:hover': {
+      color: '#ffd0f1'
+    },
   }
 }));
 
@@ -55,7 +60,7 @@ const NavDrawer = (props) => {
       <Drawer className={classes.drawer} anchor='left' open={props.visible} onClose={(e) => props.closeDrawer()}>
         <List className={classes.list}>
           {listItems.map((item, index) => (
-            <ListItem button key={item.text}>
+            <ListItem className={classes.navItem} button key={item.text}>
               <ListItemIcon>{item.icon}</ListItemIcon>
               <ListItemText primary={item.text} />
             </ListItem>

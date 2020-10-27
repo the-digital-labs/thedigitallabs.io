@@ -70,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
   profileIcon: {
     padding: '8px 10px 8px 10px',
     fontSize: 25,
-    color: '#f0b2f1',
+    color: '#f2bff3',
     '&:hover': {
       color: 'white',
     }

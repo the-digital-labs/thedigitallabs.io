@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import Logo from '../media/logo.jpg';
+import Logo from '../media/logo.png';
 import NavDrawer from './NavDrawer.js'
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +22,12 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     height: 30,
-    marginRight: 25
+    marginRight: 15
+  },
+  contactBtn: {
+    '&:hover': {
+      borderColor: '#ff9de1'
+    }
   }
 }));
 
@@ -40,7 +45,7 @@ const Nav = (props) => {
           <Typography variant="h6" className={classes.title}>
             The Digital Labs
           </Typography>
-          <Button color="inherit">Contact</Button>
+          <Button className={classes.contactBtn} variant="outlined" color="inherit">Contact</Button>
         </Toolbar>
       </AppBar>
       <NavDrawer visible={drawerVisible} closeDrawer={(e) => setDrawerVisible(false)} />
