@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
   },
   signature: {
     width: '70%',
-    margin: 50
+    margin: '50px 50px 0px 50px'
   }
 }));
 

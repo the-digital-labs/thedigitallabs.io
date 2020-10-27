@@ -67,7 +67,12 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>
+                We offer a fully in-house fullstack Javascript development studio. 
+                We can do Web Apps (React / Vanilla JS), Mobile Apps (React Native) and Desktop Apps (Electron).
+                We offer our services with maintenance of existing apps as well as new projects. Enterprise, startups and everything in between are welcome.
+                We do backend development in Node.js and AWS / Azure infrastructures. We also plan on getting into Cryptocurrency development services soon.
+              </Typography>
             </div>
           </Paper>
         </Grid>
@@ -78,7 +83,12 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>
+                Sometimes you need a 3rd party opinion on the situation in your project. 
+                We are able to come assess and provide consultations on where to improve development workflows for software engineering, web development and IT in general.
+                We can help guide your business practices in your company as well as provide hiring assistance to find quality staff.
+                Strategy, debate mediation and conflict resolution are also in our range of consult.
+              </Typography>
             </div>
           </Paper>
         </Grid>
@@ -89,7 +99,12 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>
+                We can help you design, iterate and plan out the fundamentals of a real product.
+                We can provide quality assurance, testing and code reviews from qualifed developers and creatives.
+                We can do user interface, frontend and user experince mockups in Adobe XD / Figma.
+                We offer rapid proto-typing of features, designs, systems, ideas, and visions of anything you can dream of.
+              </Typography>
             </div>
           </Paper>
         </Grid>
@@ -100,7 +115,12 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>
+                We offer promotional media services for your business. We can shoot and edit professional level photos and video.
+                We can shoot aerial photography / video with our high quality DJI 4k drone.
+                We can make music videos, take modeling shots, produce marketing material and whatever else you can imagine.
+                Our team is expert with the Adobe Creative Cloud and owns high end production equipment.
+              </Typography>
             </div>
           </Paper>
         </Grid>
@@ -111,7 +131,9 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>
+                
+              </Typography>
             </div>
           </Paper>
         </Grid>
@@ -122,7 +144,9 @@ const Offering = (props) => {
             <hr />
             <br />
             <div className={classes.cardInfo}>
-              <Typography className={classes.cardText + ' services-card-text'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
+              <Typography className={classes.cardText + ' services-card-text'}>
+                
+              </Typography>
             </div>
           </Paper>
         </Grid>
