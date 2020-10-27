@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     height: 65
   },
-  logoTitle: {
+  brand: {
     fontSize: 25,
   },
   copyright: {
@@ -35,7 +35,10 @@ const useStyles = makeStyles((theme) => ({
   },
   email: {
     fontSize: 18,
-    color: '#d69bd1 !important',
+    color: '#d69bd1',
+    '&:hover': {
+      color: 'white',
+    }
   },
   socialIcon: {
     paddingRight: 15
@@ -52,7 +55,7 @@ const Footer = (props) => {
       <Grid container>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
           <img src={logo} className={classes.logo} alt="footer-logo" />
-          <p className={classes.logoTitle}>The Digital Labs and Studios Inc.</p>
+          <p className={classes.brand + ' footer-brand'}>The Digital Labs and Studios Inc.</p>
           <p className={classes.copyright}>Copyright &copy; 2020</p>
         </Grid>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>

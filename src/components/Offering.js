@@ -132,7 +132,10 @@ const Offering = (props) => {
             <br />
             <div className={classes.cardInfo}>
               <Typography className={classes.cardText + ' services-card-text'}>
-                
+                We can create custom logos, branding, banners, icons, artwork, sketches, etc. 
+                We have an in-house digital artist that uses: Procreate, Adobe Photoshop / Illustrator, Blender, iPad and other similar tools.
+                We can do frequent demos of digital art progress through the power of remote work. 
+                We can provide a more natural creative experience by prototyping / sketching with you in realtime through a screen share video call.
               </Typography>
             </div>
           </Paper>
@@ -145,7 +148,8 @@ const Offering = (props) => {
             <br />
             <div className={classes.cardInfo}>
               <Typography className={classes.cardText + ' services-card-text'}>
-                
+                Successful social media is an art and a skill. Marketing and community outreach is also a important part of any business. We can help with content creation, frequent posting, administration, growing your audience, getting more likes, designing your vibe and more.
+                We are pretty internet savvy and spend a lot of time creating, critiqing and designing new things for the internet in general.
               </Typography>
             </div>
           </Paper>

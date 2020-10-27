@@ -10,6 +10,9 @@
   .footer {
     padding: 75px 25px 50px 25px !important;
   }
+  .footer-brand { 
+  font-size: 22px !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
