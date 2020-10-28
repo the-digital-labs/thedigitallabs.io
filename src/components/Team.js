@@ -142,7 +142,7 @@ const Team = (props) => {
               <Typography className={classes.profileDescription + ' team-profile-description'}>
                 Sylvia has been a talented artist from birth. She has a natural eye for style, aesthetics and a passion for creating unique and professional art.
                 She knew from a young age that fashion, art and design were her real passions and talents.
-                Her favorites ways of creating are: Procreate on iPad Pro w/ Apple Pen, Adobe Programs, real canvas watercolors, paint and easel and is starting to learn Blender.
+                Her favorite ways of creating are: Procreate on iPad Pro w/ Apple Pen, Adobe programs, real canvas watercolors, paint and easel and is starting to learn Blender.
                 She does excellent interactive digital art with clients and can take your vision and make it reality on the canvas.
                 She has a warm and caring approach to working with people and is a business woman to watch out for. 
                 Currently, Sylvia works casual / part-time for The Digital Labs while attending 3D digital design / art school.
