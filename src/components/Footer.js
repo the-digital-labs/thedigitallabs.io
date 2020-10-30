@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import logo from '../media/logo.jpg';
+import logo from '../media/logoStamp.png';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
 import TwitterIcon from '@material-ui/icons/Twitter';
