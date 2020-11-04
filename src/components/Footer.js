@@ -55,7 +55,7 @@ const Footer = (props) => {
       <Grid container>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
           <img src={logo} className={classes.logo} alt="footer-logo" />
-          <p className={classes.brand + ' footer-brand'}>The Digital Labs and Studios Inc.</p>
+          <p className={classes.brand + ' footer-brand'}>The Real Digital Labs Inc.</p>
           <p className={classes.copyright}>Copyright &copy; 2020</p>
         </Grid>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
