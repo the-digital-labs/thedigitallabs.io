@@ -93,10 +93,10 @@ const Team = (props) => {
               <img className={classes.profileImg + ' team-profile-image'} src={chris} alt="chris-eddy"/>
             </Grid>
             <Grid item xl={9} lg={8} md={12} sm={12} xs={12}>
-              <Typography className={classes.profileName + ' team-profile-name'}>Chris Eddy (Rookie Bleu)</Typography>
+              <Typography className={classes.profileName + ' team-profile-name'}>Christopher-Joseph Ferdinando Trimboli (Rookie Bleu)</Typography>
               <Typography className={classes.profileTitle + ' team-profile-title'}>CEO | Web Engineer | Creator</Typography>
               <div className={classes.profileIcons}>
-                <a className={classes.profileIcon} href="https://www.linkedin.com/in/chris-eddy-394784160/" target="__blank">
+                <a className={classes.profileIcon} href="https://www.linkedin.com/in/rookiebleu/" target="__blank">
                   <LinkedInIcon />
                 </a>
                 <a className={classes.profileIcon} href="https://www.instagram.com/rookie.bleu/" target="__blank">
@@ -105,7 +105,7 @@ const Team = (props) => {
                 <a className={classes.profileIcon} href="https://twitter.com/RookieBleu" target="__blank">
                   <TwitterIcon />
                 </a>
-                <a className={classes.profileIcon} href="https://github.com/ChrisEddy" target="__blank">
+                <a className={classes.profileIcon} href="https://github.com/RookieBleu" target="__blank">
                   <GitHubIcon />
                 </a>
               </div>
