@@ -56,12 +56,12 @@ const Footer = (props) => {
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
           <img src={logo} className={classes.logo} alt="footer-logo" />
           <p className={classes.brand + ' footer-brand'}>The Real Digital Labs Inc.</p>
-          <p className={classes.copyright}>Copyright &copy; 2020</p>
+          <p className={classes.copyright}>Copyright &copy; 2021</p>
         </Grid>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
           <p className={classes.contact}>Contact Us</p>
           <MailIcon className={classes.contactIcon} />
-          <a className={classes.email} href="mailto:rookiebleu@thedigitallabs.io">rookiebleu@thedigitallabs.io</a>
+          <a className={classes.email} href="mailto:christopher.trimboli@protonmail.com">christopher.trimboli@protonmail.com</a>
           <br/>
           <br/>
           <PhoneIcon className={classes.contactIcon} />
@@ -69,14 +69,6 @@ const Footer = (props) => {
         </Grid>
         <Grid item lg={4} md={4} sm={12} xs={12} className={classes.gridItem}>
           <p className={classes.contact}>Socials</p>
-          <TwitterIcon className={classes.socialIcon} />
-          <a className={classes.email} href="https://twitter.com/TheDigitalLabs">Twitter</a>
-          <br/>
-          <br/>
-          <LinkedInIcon className={classes.socialIcon} />
-          <a className={classes.email} href="https://www.linkedin.com/company/the-digital-labs/">LinkedIn</a>
-          <br/>
-          <br/>
           <GitHubIcon className={classes.socialIcon} />
           <a className={classes.email} href="https://github.com/the-digital-labs">Github</a>
         </Grid>
