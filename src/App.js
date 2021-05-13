@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.css';
-import 'fontsource-roboto';
+import '@fontsource/roboto';
 import Nav from './components/Nav.js';
 import FrontPage from './components/FrontPage';
 import Mission from './components/Mission';
